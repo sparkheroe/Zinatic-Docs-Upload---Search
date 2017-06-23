@@ -13,7 +13,7 @@ namespace zinatic_UED.Models
         private string titulo;
         private string valorDato;        
         private int numeroOrden;
-      
+        private string descripcion;
 
         public int IdSeccion
         {
@@ -36,7 +36,12 @@ namespace zinatic_UED.Models
             get { return titulo; }
             set { titulo = value; }
         }
+        public string Descripcion
+        {
+            get { return descripcion; }
+            set { descripcion = value; }
+        }
 
-        
+
     }
 }
